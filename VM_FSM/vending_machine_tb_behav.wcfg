@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="vending_machine_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="vending_machine_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="110.001 ns"></ZoomEndTime>
+      <Cursor1Time time="110.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="104"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/vending_machine_tb/money" type="array">
+      <obj_property name="ElementShortName">money[4:0]</obj_property>
+      <obj_property name="ObjectShortName">money[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/select_product" type="array">
+      <obj_property name="ElementShortName">select_product[1:0]</obj_property>
+      <obj_property name="ObjectShortName">select_product[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/extra_money" type="array">
+      <obj_property name="ElementShortName">extra_money[4:0]</obj_property>
+      <obj_property name="ObjectShortName">extra_money[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/newspaper" type="logic">
+      <obj_property name="ElementShortName">newspaper</obj_property>
+      <obj_property name="ObjectShortName">newspaper</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/chocolate" type="logic">
+      <obj_property name="ElementShortName">chocolate</obj_property>
+      <obj_property name="ObjectShortName">chocolate</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/coke" type="logic">
+      <obj_property name="ElementShortName">coke</obj_property>
+      <obj_property name="ObjectShortName">coke</obj_property>
+   </wvobject>
+   <wvobject fp_name="/vending_machine_tb/balance" type="array">
+      <obj_property name="ElementShortName">balance[4:0]</obj_property>
+      <obj_property name="ObjectShortName">balance[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
