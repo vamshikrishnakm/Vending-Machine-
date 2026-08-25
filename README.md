@@ -45,7 +45,6 @@ stateDiagram-v2
 
 ## Repository File Structure
 
-To keep the repository clean and professional, both project folders are tracked and structured as follows:
 
 ```text
 VENDING MACHINE/
@@ -68,10 +67,6 @@ VENDING MACHINE/
 
 Below is the simulation verification from Vivado Simulator (`xsim`), detailing the cycle-by-cycle output:
 
-*(Insert your simulation screenshot here)*
+<img width="1630" height="963" alt="image" src="https://github.com/user-attachments/assets/a9132ec6-9cd5-4660-ac8f-18847af88b3d" />
 
-### How to Run:
-1. Open Xilinx Vivado.
-2. Select **Open Project** and choose `VM_FSM/VM_FSM.xpr`.
-3. In the Flow Navigator, click **Run Simulation** -> **Run Behavioral Simulation**.
-4. Use the `vending_machine_tb_behav.wcfg` to load the pre-configured waveform signals.
+
